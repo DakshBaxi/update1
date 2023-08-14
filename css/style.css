@@ -13,7 +13,7 @@ body{
     background-color:  #EFF1EF;
 }
 .nav-bar{
-    width: 100%;
+    width: 100vw;
     height: 60px;
     display:flex;
     background-color:  white;
