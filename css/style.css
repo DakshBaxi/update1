@@ -43,6 +43,14 @@ body{
     height: 500px;
     width: 100%;
 }
-
+.comingSoon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #2c2221;
+    font-size: larger;
+}
 
 
