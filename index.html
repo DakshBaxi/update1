@@ -3,33 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beiyo| Safe Hostels & Rooms</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="nav-bar">
-            <img src="images/Beiyo-removebg-preview1.png" alt="logo">
+            <img src="images/Beiyo-removebg-preview1.png"  alt="logo">
+       <div class="all">
+        <div  style="
+        display: flex;
+         justify-content: center; 
+         align-items: center;
+      " >
+        <span  style="font-size:25px;cursor:pointer;color: rgb(3, 3, 3); " onclick="openNav()">&#9776; </span>
+     </div>
+       </div>
+        
             <ul>
                 <li>
                     <a href="mailto: beiyo.work@gmail.com" >beiyo.work@gmail.com</a>
                 </li>
                 <li>
-                    <button>Sign in</button>
+                    <div class="dropdown">
+                        <button class="dropbtn">Know more 
+                            <i class="fa-thin fa-caret-down" style="color: #2c2221;"></i>
+                            <img src="" alt="">
+                            </span> </button>
+                        <div class="dropdown-content">
+                          <a href="#">About Us</a>
+                          <a href="#">Collaborate with Us</a>
+                          <a href="#">Our Team</a>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <button class="requestbtn">Request a Call</button>
                 </li>
             </ul>
         </div>
-    </header>
-    <main>
-        <div class="comingSoon">
-            <h1>
-                Coming soon
-            </h1>
+        <!-- mobile nav bar-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void()" class="closebtn" onclick="closeNav()"><img src="images/close.png" alt=""></a>  
+            <img src="images/Beiyo-removebg-preview1.png" alt="logo"> 
+            <ul>
+                <li>
+                    <a href="mailto: beiyo.work@gmail.com" >beiyo.work@gmail.com</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Know more 
+                            <i class="fa-thin fa-caret-down" style="color: #2c2221;"></i>
+                            <img src="" alt="">
+                            </span> </button>
+                        <div class="dropdown-content">
+                          <a href="#">About Us</a>
+                          <a href="#">Collaborate with Us</a>
+                          <a href="#">Our Team</a>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <button class="requestbtn">Request a Call</button>
+                </li>
+            </ul>
+          </div>
         </div>
-    </main>
+    </header>
+    <!-- hero -->
+    <div class="hero" style="display: flex; flex-direction: column; justify-content: center;  align-items: center;">
+               <div class="firstdiv">
+                <span><h1 style="font-size: 100px;  text-align: center; color: #2c2221;  ">
+                    Beiyo 
+                </h1>
+                <br>
+            <span>
+                <span><h1 style="font-size: 100px;  text-align: center; color: #2c2221;  ">
+                <h2  style="font-size: xx-large;  text-align: center; margin-top: 30px; color: #ffffff; " ><span style="color: #0a0201  ">Your Ultimate</span> Hostel Booking Platform
+                          
+                </h2>
+           
+               </div>
+    </div>
+    <!-- subheads -->
+
+            <!-- rooms -->
+            <div class="rooms" style="margin-top: 20px;">
+                <div class="imagediv">
+                    <img style="width: 400px;" src="images/Hektor_hostel_rooms3.jpg" alt="">
+                       <div style="display: flex; gap: 5px;">
+                      <img style="  filter: drop-shadow(0px 10px 4px #959494);" src="images/Hektor_hostel_double_room-1400x900.jpg" alt="">
+                      <img src="images/single_room_Hektor_hostel-1.jpg" alt="">
+                       </div>
+                </div>
+                <div class="content" style="width: 500px; height: 150px;">
+                        <h1 style="font-weight: bolder; font-size:xx-large;" >Step into a room that has
+                            <br>
+                            <span style="color: #167ad1;">room for everything</span></h1>
+                          <p>  <p>Your clothes and bag will not be fighting for space on the same chair. At Beiyo's room, there's ample room for all your possessions. Even a framed photo of your family, for the rare occasions you miss home.</p></p>
+                </div>
+            </div>
+            <!--      -->
+            <div class="rooms" style="margin-top: 20px;">
+              
+                <div class="content" style="width: 500px; height: 150px;">
+                        <h1 style="font-weight: bolder; font-size:xx-large;" >Step into a room that has
+                            <br>
+                            <span style="color: #167ad1;">room for everything</span></h1>
+                          <p>  <p>Your clothes and bag will not be fighting for space on the same chair. At Beiyo's room, there's ample room for all your possessions. Even a framed photo of your family, for the rare occasions you miss home.</p></p>
+                </div>
+                <div class="imagediv">
+                    <img style="width: 400px;" src="images/Hektor_hostel_rooms3.jpg" alt="">
+                       <div style="display: flex; gap: 5px;">
+                      <img style="  filter: drop-shadow(0px 10px 4px #959494);" src="images/Hektor_hostel_double_room-1400x900.jpg" alt="">
+                      <img src="images/single_room_Hektor_hostel-1.jpg" alt="">
+                       </div>
+                </div>
+            </div>
+
+
+
+    <!-- //feature -->
+    <div class="feature" style="display: flex; flex-direction: column;">
+            <div class="head" style="display: flex;  height: 150px; justify-content: center; align-items: center; ">
+                    <h1>More reasons to love our product</h1>
+            </div>
+            <div style="display: flex; justify-content: center; gap: 30px;" class="feature">
+             <div class="featureElement">
+                <img   src="images/star-solid.svg" alt="">
+                <h2>Short description of the first feature</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisici </p>
+            </div>
+             <div class="featureElement">
+                <img    src="images/star-solid.svg" alt="">
+                <h2>Short description of the first feature</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing </p>
+            </div>
+             <div class="featureElement">
+                <img   src="images/star-solid.svg" alt="">
+                <h2>Short description of the first feature</h2>
+                <h2p>Lorem ipsum dolor sit, amet consectetur adipisicing </p>
+            </div>
+             <div class="featureElement">
+                <img   src="images/star-solid.svg" alt="">
+                <h2>Short description of the first feature</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+    </div>
+<script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;          
+    list-style: none;       
+    font-family: 'Poppins', sans-serif; 
+}
+a{
+    color: #EFF1EF;
+}
+body{
+    background-color:  #EFF1EF;
+}
+
+.nav-bar{
+  width: 100%;
+    height: 60px;
+    display:flex;
+    background-color:  white;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+
+
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-bar ul a{
+    color: #2c2221;
+
+}
+.requestbtn{
+    border: 0;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: rgb(127, 189, 240);
+        background-color: rgb(127, 189, 240);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav{
+  display: none;
+}
+.all{
+  display: none;
+
+}
+@media(max-width:858px){
+.all{
+ display: flex; 
+ justify-content: center;
+ align-items: center;      
+}                                                       
+  .nav-bar{
+     
+    height: 60px;
+    display:flex;
+    background-color:  white;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+
+  }
+  .sidenav ul a{
+    color: black;
+
+  }
+  .sidenav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #EFF1EF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+   
+ 
+  }
+  .nav-bar ul{
+    display: none;
+  }
+
+ 
+  .menubar{
+    display: block;
+  }
+}
+.hero{
+    background-image: url(/images/heroimage.jpeg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    opacity: 90%;
+    gap: 100px;
+ 
+}
+
+.dropbtn {
+    background:transparent;
+    color: #2c2221;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;
+  }
+  
+  .hero{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .firstdiv{
+    height: 500px;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.seconddiv{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.featureElement{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+.featureElement img{
+  height: 40px;
+  width: 40px;
+}
+.featureElement img h2{
+  font-size: small;
+  text-align: center;
+}
+.featureElement img h2 p{
+  text-align: center;
+}
+@media (max-width: 910px) {
+  .rooms{
+    flex-direction: column;
+    margin-bottom: 200px;
+   padding-top: 400px;
+    gap: 50px;
+  }
+}
+.rooms{
+  display: flex;
+  height: 500px;
+  width: 100%;
+ 
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.imagediv{
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(10px 10px 4px #959494);
+  gap: 20px;
+}
+.imagediv img{
+  height: 200px;
+  width: 200px;
+
+
+
+}
