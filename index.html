@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beiyo - Experience of Life</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,23 +75,28 @@
         </div>
     </header>
     <!-- hero -->
-    <div class="hero" style="display: flex; flex-direction: column; justify-content: center;  align-items: center;">
-               <div class="firstdiv">
-                <span><h1 style="font-size: 100px;  text-align: center; color: #2c2221;  ">
+    <div class="hero" style="display: flex; flex-direction: row; justify-content: space-evenly;  align-items:start ">
+              <div class="firstdiv"  style="display: flex; flex-direction: column; justify-content: center;  align-items:start ">
+              <h1 style="font-size: 100px;    color: #000000;  ">
                     Beiyo 
                 </h1>
                 <br>
-            <span>
-                <span><h1 style="font-size: 100px;  text-align: center; color: #2c2221;  ">
-                <h2  style="font-size: xx-large;  text-align: center; margin-top: 30px; color: #ffffff; " ><span style="color: #0a0201  ">Your Ultimate</span> Hostel Booking Platform
-                          
-                </h2>
            
-               </div>
+               
+                <h2  style="font-size: xx-large;   color: #000000; " >
+                    <span id="element"></span>
+                </h2>
+              </div>
+              
+              <div class="imghero"  style="display: flex; flex-direction: column; justify-content: center;  align-items:center; height: 500px; z-index: 1;  ">
+                <img src="images/heroimage.jpeg" style="border: 15px #ffffff solid; border-radius: 10px; filter: contrast(80%);" alt="">
+              </div>
+           
+               
     </div>
-    <!-- subheads -->
+    <!-- subheros -->
 
-            <!-- rooms -->
+           <div class="subheros" >
             <div class="rooms" style="margin-top: 20px;">
                 <div class="imagediv">
                     <img style="width: 400px;" src="images/Hektor_hostel_rooms3.jpg" alt="">
@@ -104,26 +109,45 @@
                         <h1 style="font-weight: bolder; font-size:xx-large;" >Step into a room that has
                             <br>
                             <span style="color: #167ad1;">room for everything</span></h1>
-                          <p>  <p>Your clothes and bag will not be fighting for space on the same chair. At Beiyo's room, there's ample room for all your possessions. Even a framed photo of your family, for the rare occasions you miss home.</p></p>
+                          <p>  Your clothes and bag will not be fighting for space on the same chair. At Beiyo's room, there's ample room for all your possessions. Even a framed photo of your family, for the rare occasions you miss home.</p>
                 </div>
             </div>
-            <!--      -->
+            <!--   laundary   -->
             <div class="rooms" style="margin-top: 20px;">
               
                 <div class="content" style="width: 500px; height: 150px;">
-                        <h1 style="font-weight: bolder; font-size:xx-large;" >Step into a room that has
+                        <h1 style="font-weight: bolder; font-size:xx-large;" >Take your daily list of
                             <br>
-                            <span style="color: #167ad1;">room for everything</span></h1>
-                          <p>  <p>Your clothes and bag will not be fighting for space on the same chair. At Beiyo's room, there's ample room for all your possessions. Even a framed photo of your family, for the rare occasions you miss home.</p></p>
+                            chores. And 
+                           
+                            <span style="color: #167ad1;">tear it up</span></h1>
+                          <p> You have better things to do than wash your clothes, clean up your room and cook your meals. So our team of pros will do them all for you. </p>
                 </div>
                 <div class="imagediv">
-                    <img style="width: 400px;" src="images/Hektor_hostel_rooms3.jpg" alt="">
+                    <img style="width: 400px;" src="images/cleaningperson.jpg" alt="">
                        <div style="display: flex; gap: 5px;">
-                      <img style="  filter: drop-shadow(0px 10px 4px #959494);" src="images/Hektor_hostel_double_room-1400x900.jpg" alt="">
-                      <img src="images/single_room_Hektor_hostel-1.jpg" alt="">
+                      <img style="  filter: drop-shadow(0px 10px 4px #959494);" src="images/laundary1.jpeg" alt="">
+                      <img src="images/brush.jpeg" alt="">
                        </div>
                 </div>
             </div>
+            <!-- common room -->
+            <div class="rooms" style="margin-top: 20px;">
+                <div class="imagediv">
+                    <img style="width: 400px;" src="images/commonroom1.jpeg" alt="">
+                       <div style="display: flex; gap: 5px;">
+                      <img style="  filter: drop-shadow(0px 10px 4px #959494);" src="images/commonroom2.jpeg" alt="">
+                      <img src="images/commonroom3.jpeg" alt="">
+                       </div>
+                </div>
+                <div class="content" style="width: 500px; height: 150px;">
+                        <h1 style="font-weight: bolder; font-size:xx-large;" >Chill in a <span style="color: #167ad1;" >common area</span> <br>
+                            that's anything but common</h1>
+                          <p> Nope, we don't try to pass off a few plastic chairs and a TV as a common area. We've replaced them with sofas, bean bags and large-screen TVs. And we've also added gaming zones, fitness centres and chillout corners as a bonus.</p>
+                </div>
+            </div>
+
+           </div>
 
 
 
@@ -155,6 +179,7 @@
             </div>
             </div>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script src="index.js"></script>
 </body>
 </html>
